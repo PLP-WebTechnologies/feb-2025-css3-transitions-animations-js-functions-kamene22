@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Welcome to My Digital Library</h1>
+    </header>
+
+    <main>
+        <section class="book-form">
+            <h2>Add a Book</h2>
+            <input type="text" id="titleInput" placeholder="Book Title">
+            <input type="text" id="authorInput" placeholder="Author">
+            <button onclick="addBook()">Add to Library</button>
+        </section>
+
+        <section class="book-list">
+            <h2>Your Library</h2>
+            <button onclick="displayBooks()">📖 Show My Books</button>
+            <div id="bookContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ and JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
